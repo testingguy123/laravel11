@@ -9,3 +9,4 @@ Route::get('users', [UserController::class, 'index']);
 
 // Get a single user by ID
 Route::get('user/{id}', [UserController::class, 'show']);
+
